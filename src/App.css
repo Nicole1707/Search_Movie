@@ -1,0 +1,36 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.SearchForm-wapper{
+
+  display:flex;
+  justify-content: center;
+}
+
+.MoviesList{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 16px;
+
+}
+.MoviesList-item{
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+.image{
+  display: block;
+  height: auto;
+  width: 43%;
+  margin: 3%;
+}
+.card-container{
+  background-color:peachpuff;
+  border-radius: 8.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0px 0 1px rgb(10 10 10 / 2%);
+  color: #4a4a4a;
+  max-width: 100%;
+}
